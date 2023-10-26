@@ -1,0 +1,66 @@
+.slider-container {
+    width: 1035px;
+    height: 10px;
+    background-color: #eee;
+    display: inline-block;
+    position: absolute;
+    left:40px;
+    
+    margin: 1% auto;
+}
+
+.slider-tick {
+    width: 1px;
+    height: 5px;
+    background-color: #999;
+    position: absolute;
+    top: 0;
+}
+.slider-block{
+    width: 44px;
+    height: 10px;
+    background-color: #999;
+    position: absolute;
+    top: 0;
+}
+.slider-thumb {
+    width: 20px;
+    height: 20px;
+    background-color: #db343c;
+    border-radius: 50%;
+    position: absolute;
+    cursor: pointer;
+    transition: left 0.1s;
+    
+}
+.slider-thumb2 {
+    width: 20px;
+    height: 20px;
+    background-color: #db343c;
+    border-radius: 50%;
+    position: absolute;
+    cursor: pointer;
+    transition: left 0.1s;
+    
+}
+.tick-text {
+    position: absolute;
+    top: -20px; 
+    left: 50%; 
+    transform: translateX(-50%); 
+    user-select: none;
+    font-size: 12px;
+  }
+#changeThumbPositionButton {
+    position: relative;
+    left: 45px; /* Adjust the left position as needed */
+    margin: 1% auto; /* Adjust the margin as needed */
+    display: inline-block; /* Allows for horizontal alignment */
+}
+#dynamicDropdown {
+    position: relative;
+    left: 30px; /* Adjust the left position as needed */
+    margin: 1% auto; /* Adjust the margin as needed */
+    display: inline-block; /* Allows for horizontal alignment */
+}
+  

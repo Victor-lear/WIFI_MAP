@@ -1,0 +1,22 @@
+{
+    "data":[
+        {
+            "path":"D1MA",
+            "start_x" : 470,
+            "start_y" : 145,
+            "end_x" : 760,
+            "end_y" : 250
+            
+        },
+        {
+            "path":"MAD1",
+            "start_x" : 760,
+            "start_y" : 260,
+            "end_x" : 470,
+            "end_y" : 155
+        }
+
+
+
+    ]
+}
