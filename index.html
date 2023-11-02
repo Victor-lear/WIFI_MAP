@@ -12,22 +12,21 @@
 	<body>
 		<canvas id="myCanvas" width="1080" height="650"></canvas>
 		
-		<div class="button">
+		<div class="button" id="button">
 			<select id="dynamicDropdown" name="dynamicDropdown"></select>
 			<button id="changeThumbPositionButton"><img src="/public/image/play.png" alt="Play Icon"></button>
 			
 		</div>
 		<div class="slider-container" id="slider">
-			
-		
+
 			<div class="slider-block" id="block"></div>
 			<div class="slider-thumb" id="thumb"></div>
 			<div class="slider-thumb2" id="thumb2"></div>
 		</div>
-		
-		<script type="module" src="./src/select.js"></script>		  
+		<script type="module" src="./src/loaddata.js" ></script>
 		<script type="module" src="./src/slider.js"></script>
 		<script type="module" src="./src/canvas.js"></script>
+		<script type="module" src="./src/select.js"></script>	
 		<script type="module" src="./src/main.js"></script>
 		
 		

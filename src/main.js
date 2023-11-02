@@ -2,6 +2,10 @@ import { setline } from './canvas.js';
 import { clearCanvas } from './canvas.js';
 import { automove } from './slider.js';
 import { listener } from './slider.js';
+import { loadselecttime } from './loaddata.js';
+import { addselectOption } from './select.js';
+import { removeallselectOption } from './select.js';
+import { loadpathdata } from './loaddata.js';
 const thumb = document.getElementById('thumb');
 const thumb2 = document.getElementById('thumb2');
 const sliderWidth = parseFloat(getComputedStyle(slider).width);
@@ -11,7 +15,9 @@ let movethumb = null;
 let lineData; 
 let widthData;
 let click=true;
-const loadLineData = fetch('../public/Data/linepath.json')
+let selecttime;
+function fetchdata(){
+  const loadLineData = fetch('../public/Data/linepath.json')
   .then(response => response.json())
   .then(data => {
     lineData = data.data;
@@ -19,21 +25,58 @@ const loadLineData = fetch('../public/Data/linepath.json')
   .catch(error => {
     console.error('Error fetching linepath.json:', error);
   });
-const loadwidth = fetch('../public/Data/number_of_move.json')
-  .then(response => response.json())
-  .then(data => {
-    widthData = data.data;
-  })
-  .catch(error => {
-    console.error('Error fetching number_of_move.json:', error);
-  });
-document.addEventListener('DOMContentLoaded', () => {
+  const loadwidth = fetch('../public/Data/number_of_move.json')
+    .then(response => response.json())
+    .then(data => {
+      widthData = data.data;
+    })
+    .catch(error => {
+      console.error('Error fetching number_of_move.json:', error);
+    });
+
+}
+
+function reloadselecttime(){
+  loadpathdata()
+  loadselecttime();
+  removeallselectOption();
+  const selecttimedata = fetch('../public/Data/selecttime.json')
+    .then(response => response.json())
+    .then(data => {
+      selecttime = data.data;
+      addselectOption(selecttime);
+    })
+    .catch(error => {
+      console.error('Error fetching linepath.json:', error);
+    });
+
+}
+async function executeAndReload() {
+  try {
+      loadpathdata();
+      await loadselecttime();
+      await reloadselecttime();
+      
+      await fetchdata()
+  } catch (error) {
+      console.error('Error:', error);
+      // 处理错误
+  }
+}
+fetchdata()
+executeAndReload()
+setInterval(fetchdata, 300000);
+setInterval(executeAndReload, 300000);
+document.addEventListener('DOMContentLoaded',async () => {
+    executeAndReload();
     changeThumbPositionButton.addEventListener('click', () => {
-        // 在按钮点击时获取最新的 thumbX 值
+        
         if(click){
             click=false
             listener(false);
             var selectedValue = dropdown.value;
+            console.log(selectedValue)
+            dropdown.disabled = true;
             const thumbX = parseFloat(thumb.style.left)+10;
             const thumb2X = parseFloat(thumb2.style.left)+10;
             let step;
@@ -60,6 +103,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }else{
             click=true
             listener(true);
+            dropdown.disabled = false;
             if(movethumb){
 
                 clearTimeout(movethumb);

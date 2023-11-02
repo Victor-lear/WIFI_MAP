@@ -51,16 +51,21 @@
     user-select: none;
     font-size: 12px;
   }
+.button{
+    user-select: none;
+
+}
 #changeThumbPositionButton {
     position: relative;
     left: 45px; /* Adjust the left position as needed */
     margin: 1% auto; /* Adjust the margin as needed */
     display: inline-block; /* Allows for horizontal alignment */
+    user-select: none;
 }
 #dynamicDropdown {
     position: relative;
     left: 30px; /* Adjust the left position as needed */
     margin: 1% auto; /* Adjust the margin as needed */
     display: inline-block; /* Allows for horizontal alignment */
+    user-select: none;
 }
-  
