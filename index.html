@@ -11,11 +11,27 @@
 	</head>
 	<body>
 		<canvas id="myCanvas" width="1080" height="650"></canvas>
-		
+		<div id="table-container"></div>
+		<div id="table-container-2"></div>
 		<div class="button" id="button">
 			<select id="dynamicDropdown" name="dynamicDropdown"></select>
 			<button id="changeThumbPositionButton"><img src="/public/image/play.png" alt="Play Icon"></button>
-			
+			<div class="switch switch1">
+				<div class="switch-text">移動人數</div>
+				<input class="switch-checkbox" id="switchID1" type="checkbox" name="switch-checkbox" checked>
+				<label class="switch-label" for="switchID1">
+					<span class="switch-txt" turnOn="開" turnOff="關"></span>
+					<span class="switch-Round-btn"></span>
+				</label>
+			</div>
+			<div class="switch switch2">
+				<div class="switch-text">棟內人數</div>
+				<input class="switch-checkbox" id="switchID2" type="checkbox" name="switch-checkbox2" checked>
+				<label class="switch-label" for="switchID2">
+					<span class="switch-txt" turnOn="開" turnOff="關"></span>
+					<span class="switch-Round-btn"></span>
+				</label>
+			</div>
 		</div>
 		<div class="slider-container" id="slider">
 
@@ -23,12 +39,13 @@
 			<div class="slider-thumb" id="thumb"></div>
 			<div class="slider-thumb2" id="thumb2"></div>
 		</div>
-		<script type="module" src="./src/loaddata.js" ></script>
+		<script type="module" src="./src/select.js"></script>
 		<script type="module" src="./src/slider.js"></script>
 		<script type="module" src="./src/canvas.js"></script>
-		<script type="module" src="./src/select.js"></script>	
+		<script type="module" src="./src/table.js"></script>
 		<script type="module" src="./src/main.js"></script>
 		
+
 		
 	</body>
 </html>

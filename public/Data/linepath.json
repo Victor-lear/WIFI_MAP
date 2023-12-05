@@ -11,10 +11,738 @@
         {
             "path":"MAD1",
             "start_x" : 760,
-            "start_y" : 260,
+            "start_y" : 250,
             "end_x" : 470,
-            "end_y" : 155
-        }
+            "end_y" : 145
+        },
+        {
+            "path":"D1E2",
+            "start_x" : 470,
+            "start_y" : 145,
+            "end_x" :810,
+            "end_y" :350 
+        },
+        {
+            "path":"E2D1",
+            "start_x" :810,
+            "start_y" :350,
+            "end_x" : 470,
+            "end_y" : 145
+        },
+        {
+            "path":"D1GM",
+            "start_x" : 470,
+            "start_y" : 145,
+            "end_x" :210,
+            "end_y" :280
+        },
+        {
+            "path":"GMD1",
+            "start_x" :210,
+            "start_y" :280,
+            "end_x" : 470,
+            "end_y" : 145
+        },
+        {
+            "path":"D1IB",
+            "start_x" : 470,
+            "start_y" : 145,
+            "end_x" :785,
+            "end_y" : 515
+        },
+        {
+            "path":"IBD1",
+            "start_x" :785,
+            "start_y" :515,
+            "end_x" : 470,
+            "end_y" : 145
+        },
+        {
+            "path":"D1IB_MA",
+            "start_x" : 470,
+            "start_y" : 145,
+            "end_x" :785,
+            "end_y" : 515
+        },
+        {
+            "path":"IB_MAD1",
+            "start_x" :785,
+            "start_y" :515,
+            "end_x" : 470,
+            "end_y" : 145
+        },
+        {
+            "path":"D1IY",
+            "start_x" : 470,
+            "start_y" : 145,
+            "end_x" :140,
+            "end_y" : 340
+        },
+        {
+            "path":"IYD1",
+            "start_x" :140,
+            "start_y" :340,
+            "end_x" : 470,
+            "end_y" : 145
+        },
+        {
+            "path":"D1LB",
+            "start_x" : 470,
+            "start_y" : 145,
+            "end_x" :550,
+            "end_y" : 500
+        },
+        {
+            "path":"LBD1",
+            "start_x" :550,
+            "start_y" :500,
+            "end_x" : 470,
+            "end_y" : 145
+        },
+        {
+            "path":"D1RB",
+            "start_x" : 470,
+            "start_y" : 145,
+            "end_x" :490,
+            "end_y" : 535
+        },
+        {
+            "path":"RBD1",
+            "start_x" :490,
+            "start_y" :535,
+            "end_x" : 470,
+            "end_y" : 145
+        },
+        {
+            "path":"D1T2",
+            "start_x" : 470,
+            "start_y" : 145,
+            "end_x" :860,
+            "end_y" : 240
+        },
+        {
+            "path":"T2D1",
+            "start_x" :860,
+            "start_y" :240,
+            "end_x" : 470,
+            "end_y" : 145
+        },
+        {
+            "path":"D1T4",
+            "start_x" : 470,
+            "start_y" : 145,
+            "end_x" :450,
+            "end_y" : 420
+        },
+        {
+            "path":"T4D1",
+            "start_x" :450,
+            "start_y" :420,
+            "end_x" : 470,
+            "end_y" : 145
+        },
+        {
+            "path":"D1TR",
+            "start_x" : 470,
+            "start_y" : 145,
+            "end_x" :145,
+            "end_y" : 490
+        },
+        {
+            "path":"TRD1",
+            "start_x" :145,
+            "start_y" :490,
+            "end_x" : 470,
+            "end_y" : 145
+        },
+        {
+            "path":"E2MA",
+            "start_x" :810,
+            "start_y" :350,
+            "end_x" : 760,
+            "end_y" : 250
+        },
+        {
+            "path":"MAE2",
+            "start_x" : 760,
+            "start_y" : 250,
+            "end_x" :810,
+            "end_y" : 350
+        },
+        {
+            "path":"E2RB",
+            "start_x" :810,
+            "start_y" :350,
+            "end_x" :490,
+            "end_y" :535 
+        },
+        {
+            "path":"RBE2",
+            "start_x" :490,
+            "start_y" :535,
+            "end_x" :810,
+            "end_y" : 350
+        },
+        {
+            "path":"E2T2",
+            "start_x" :810,
+            "start_y" :350,
+            "end_x" :860,
+            "end_y" : 240
+        },
+        {
+            "path":"T2E2",
+            "start_x" :860,
+            "start_y" :240,
+            "end_x" :810,
+            "end_y" : 350
+        },
+        {
+            "path":"E2T4",
+            "start_x" :810,
+            "start_y" :350,
+            "end_x" :450,
+            "end_y" : 420
+        },
+        {
+            "path":"T4E2",
+            "start_x" :450,
+            "start_y" :420,
+            "end_x" :810,
+            "end_y" : 350
+        },
+        {
+            "path":"GMTR",
+            "start_x" :210,
+            "start_y" :280,
+            "end_x" :145,
+            "end_y" : 490
+        },
+        {
+            "path":"TRGM",
+            "start_x" :145,
+            "start_y" :490,
+            "end_x" :210,
+            "end_y" : 280
+        },
+        {
+            "path":"GMIY",
+            "start_x" :210,
+            "start_y" :280,
+            "end_x" :140,
+            "end_y" : 340
+        },
+        {
+            "path":"IYGM",
+            "start_x" :140,
+            "start_y" :340,
+            "end_x" :210,
+            "end_y" : 280
+        },
+        {
+            "path":"GMMA",
+            "start_x" :210,
+            "start_y" :280,
+            "end_x" : 760,
+            "end_y" : 250
+        },
+        {
+            "path":"MAGM",
+            "start_x" : 760,
+            "start_y" : 250,
+            "end_x" :210,
+            "end_y" : 280
+        },
+        {
+            "path":"GMT2",
+            "start_x" :210,
+            "start_y" :280,
+            "end_x" :860,
+            "end_y" : 240
+        },
+        {
+            "path":"T2GM",
+            "start_x" :860,
+            "start_y" :240,
+            "end_x" :210,
+            "end_y" : 280
+        },
+        {
+            "path":"GMT4",
+            "start_x" :210,
+            "start_y" :280,
+            "end_x" :450,
+            "end_y" : 420
+        },
+        {
+            "path":"T4GM",
+            "start_x" :450,
+            "start_y" :420,
+            "end_x" :210,
+            "end_y" : 280
+        },
+        {
+            "path":"IBIB_MA",
+            "start_x" :785,
+            "start_y" :515,
+            "end_x" :785,
+            "end_y" : 515
+        },
+        {
+            "path":"IB_MAIB",
+            "start_x" :785,
+            "start_y" :515,
+            "end_x" :785,
+            "end_y" : 515
+        },
+        {
+            "path":"IBIY",
+            "start_x" :785,
+            "start_y" :515,
+            "end_x" :140,
+            "end_y" : 340
+        },
+        {
+            "path":"IYIB",
+            "start_x" :140,
+            "start_y" :340,
+            "end_x" :785,
+            "end_y" : 515
+        },
+        {
+            "path":"IBMA",
+            "start_x" :785,
+            "start_y" :515,
+            "end_x" : 760,
+            "end_y" : 250
+        },
+        {
+            "path":"MAIB",
+            "start_x" : 760,
+            "start_y" : 250,
+            "end_x" :785,
+            "end_y" : 515
+        },
+        {
+            "path":"IBT2",
+            "start_x" :785,
+            "start_y" :515,
+            "end_x" :860,
+            "end_y" : 240
+        },
+        {
+            "path":"T2IB",
+            "start_x" :860,
+            "start_y" :240,
+            "end_x" :785,
+            "end_y" : 515
+        },
+        {
+            "path":"IBT4",
+            "start_x" :785,
+            "start_y" :515,
+            "end_x" :450,
+            "end_y" : 420
+        },
+        {
+            "path":"T4IB",
+            "start_x" :450,
+            "start_y" :420,
+            "end_x" :785,
+            "end_y" : 515
+        },
+        {
+            "path":"IBTR",
+            "start_x" :785,
+            "start_y" :515,
+            "end_x" :145,
+            "end_y" : 490
+        },
+        {
+            "path":"TRIB",
+            "start_x" :145,
+            "start_y" :490,
+            "end_x" :785,
+            "end_y" : 515
+        },
+        {
+            "path":"IB_MAMA",
+            "start_x" :785,
+            "start_y" :515,
+            "end_x" : 760,
+            "end_y" : 250
+        },
+        {
+            "path":"MAIB_MA",
+            "start_x" : 760,
+            "start_y" : 250,
+            "end_x" :785,
+            "end_y" : 515
+        },
+        {
+            "path":"IB_MAT2",
+            "start_x" :785,
+            "start_y" :515,
+            "end_x" :860,
+            "end_y" : 240
+        },
+        {
+            "path":"T2IB_MA",
+            "start_x" :860,
+            "start_y" :240,
+            "end_x" :785,
+            "end_y" : 515
+        },
+        {
+            "path":"IB_MAT4",
+            "start_x" :785,
+            "start_y" :515,
+            "end_x" :450,
+            "end_y" : 420
+        },
+        {
+            "path":"T4IB_MA",
+            "start_x" :450,
+            "start_y" :420,
+            "end_x" :785,
+            "end_y" : 515
+        },
+        {
+            "path":"IB_MATR",
+            "start_x" :785,
+            "start_y" :515,
+            "end_x" :145,
+            "end_y" : 490
+        },
+        {
+            "path":"TRIB_MA",
+            "start_x" :145,
+            "start_y" :490,
+            "end_x" :785,
+            "end_y" : 515
+        },
+        {
+            "path":"IYTR",
+            "start_x" :140,
+            "start_y" :340,
+            "end_x" :145,
+            "end_y" : 490
+        },
+        {
+            "path":"TRIY",
+            "start_x" :145,
+            "start_y" :490,
+            "end_x" :140,
+            "end_y" : 340
+        },
+        {
+            "path":"IYE2",
+            "start_x" :140,
+            "start_y" :340,
+            "end_x" :810,
+            "end_y" : 350
+        },
+        {
+            "path":"E2IY",
+            "start_x" :810,
+            "start_y" :350,
+            "end_x" :140,
+            "end_y" : 340
+        },
+        {
+            "path":"IYIB_MA",
+            "start_x" :140,
+            "start_y" :340,
+            "end_x" :785,
+            "end_y" : 515
+        },
+        {
+            "path":"IB_MAIY",
+            "start_x" :785,
+            "start_y" :515,
+            "end_x" :140,
+            "end_y" : 340
+        },
+        {
+            "path":"IYLB",
+            "start_x" :140,
+            "start_y" :340,
+            "end_x" :550,
+            "end_y" :500 
+        },
+        {
+            "path":"LBIY",
+            "start_x" :550,
+            "start_y" :500,
+            "end_x" :140,
+            "end_y" : 340
+        },
+        {
+            "path":"IYMA",
+            "start_x" :140,
+            "start_y" :340,
+            "end_x" : 760,
+            "end_y" : 250
+        },
+        {
+            "path":"MAIY",
+            "start_x" : 760,
+            "start_y" : 250,
+            "end_x" :140,
+            "end_y" : 340
+        },
+        {
+            "path":"IYT2",
+            "start_x" :140,
+            "start_y" :340,
+            "end_x" :860,
+            "end_y" : 240
+        },
+        {
+            "path":"T2IY",
+            "start_x" :860,
+            "start_y" :240,
+            "end_x" :140,
+            "end_y" : 340
+        },
+        {
+            "path":"IYT4",
+            "start_x" :140,
+            "start_y" :340,
+            "end_x" :450,
+            "end_y" : 420
+        },
+        {
+            "path":"T4IY",
+            "start_x" :450,
+            "start_y" :420,
+            "end_x" :140,
+            "end_y" : 340
+        },
+        {
+            "path":"LBMA",
+            "start_x" :550,
+            "start_y" :500,
+            "end_x" : 760,
+            "end_y" : 250
+        },
+        {
+            "path":"MALB",
+            "start_x" : 760,
+            "start_y" : 250,
+            "end_x" :550,
+            "end_y" : 500
+        },
+        {
+            "path":"LBRB",
+            "start_x" :550,
+            "start_y" :500,
+            "end_x" :490,
+            "end_y" : 535
+        },
+        {
+            "path":"RBLB",
+            "start_x" :490,
+            "start_y" :535,
+            "end_x" :550,
+            "end_y" : 500
+        },
+        {
+            "path":"LBT2",
+            "start_x" :550,
+            "start_y" :500,
+            "end_x" :860,
+            "end_y" : 240
+        },
+        {
+            "path":"T2LB",
+            "start_x" :860,
+            "start_y" :240,
+            "end_x" :550,
+            "end_y" : 500
+        },
+        {
+            "path":"LBT4",
+            "start_x" :550,
+            "start_y" :500,
+            "end_x" :450,
+            "end_y" : 420
+        },
+        {
+            "path":"T4LB",
+            "start_x" :450,
+            "start_y" :420,
+            "end_x" :550,
+            "end_y" : 500
+        },
+        {
+            "path":"LBTR",
+            "start_x" :550,
+            "start_y" :500,
+            "end_x" :145,
+            "end_y" : 490
+        },
+        {
+            "path":"TRLB",
+            "start_x" :145,
+            "start_y" :490,
+            "end_x" :550,
+            "end_y" : 500
+        },
+        {
+            "path":"MARB",
+            "start_x" : 760,
+            "start_y" : 250,
+            "end_x" :490,
+            "end_y" : 535
+        },
+        {
+            "path":"RBMA",
+            "start_x" :490,
+            "start_y" :535,
+            "end_x" : 760,
+            "end_y" : 250
+        },
+        {
+            "path":"MAT2",
+            "start_x" : 760,
+            "start_y" : 250,
+            "end_x" :860,
+            "end_y" : 240
+        },
+        {
+            "path":"T2MA",
+            "start_x" :860,
+            "start_y" :240,
+            "end_x" : 760,
+            "end_y" : 250
+        },
+        {
+            "path":"MAT4",
+            "start_x" : 760,
+            "start_y" : 250,
+            "end_x" :450,
+            "end_y" : 420
+        },
+        {
+            "path":"T4MA",
+            "start_x" :450,
+            "start_y" :420,
+            "end_x" : 760,
+            "end_y" : 250
+        },
+        {
+            "path":"MATR",
+            "start_x" : 760,
+            "start_y" : 250,
+            "end_x" :145,
+            "end_y" : 490
+        },
+        {
+            "path":"TRMA",
+            "start_x" :145,
+            "start_y" :490,
+            "end_x" : 760,
+            "end_y" : 250
+        },
+        {
+            "path":"RBIY",
+            "start_x" :490,
+            "start_y" :535,
+            "end_x" :140,
+            "end_y" : 340
+        },
+        {
+            "path":"IYRB",
+            "start_x" :140,
+            "start_y" :340,
+            "end_x" :490,
+            "end_y" : 535
+        },
+        {
+            "path":"RBT2",
+            "start_x" :490,
+            "start_y" :535,
+            "end_x" :860,
+            "end_y" : 240
+        },
+        {
+            "path":"T2RB",
+            "start_x" :860,
+            "start_y" :240,
+            "end_x" :490,
+            "end_y" : 535
+        },
+        {
+            "path":"RBT4",
+            "start_x" :490,
+            "start_y" :535,
+            "end_x" :450,
+            "end_y" : 420
+        },
+        {
+            "path":"T4RB",
+            "start_x" :450,
+            "start_y" :420,
+            "end_x" :490,
+            "end_y" : 535
+        },
+        {
+            "path":"RBTR",
+            "start_x" :490,
+            "start_y" :535,
+            "end_x" :145,
+            "end_y" : 490
+        },
+        {
+            "path":"TRRB",
+            "start_x" :145,
+            "start_y" :490,
+            "end_x" :490,
+            "end_y" : 535
+        },
+        {
+            "path":"T2T4",
+            "start_x" :860,
+            "start_y" :240,
+            "end_x" :450,
+            "end_y" : 420
+        },
+        {
+            "path":"T4T2",
+            "start_x" :450,
+            "start_y" :420,
+            "end_x" :860,
+            "end_y" : 240
+        },
+        {
+            "path":"T2TR",
+            "start_x" :860,
+            "start_y" :240,
+            "end_x" :145,
+            "end_y" : 490
+        },
+        {
+            "path":"TRT2",
+            "start_x" :145,
+            "start_y" :490,
+            "end_x" :860,
+            "end_y" : 240
+        },
+        {
+            "path":"T4TR",
+            "start_x" :450,
+            "start_y" :420,
+            "end_x" :145,
+            "end_y" : 490
+        },
+        {
+            "path":"TRT4",
+            "start_x" :145,
+            "start_y" :490,
+            "end_x" :450,
+            "end_y" : 420
+        }        
 
 
 
